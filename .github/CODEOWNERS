@@ -1,0 +1,23 @@
+# CODEOWNERS for pii-detection-pipeline
+# Order matters: the LAST matching pattern wins.
+
+# Default owner
+*       @Alfredfuller8
+
+# Detection logic — review every change carefully
+/src/detectors/    @Alfredfuller8
+/src/redactors/    @Alfredfuller8
+
+# Pipeline core
+/src/pipeline/     @Alfredfuller8
+
+# Test fixtures — extra scrutiny to prevent real PII leaks
+/tests/fixtures/   @Alfredfuller8
+
+# Configs and thresholds
+/configs/          @Alfredfuller8
+
+# Docs and CI
+/docs/             @Alfredfuller8
+/.github/          @Alfredfuller8
+README.md          @Alfredfuller8
